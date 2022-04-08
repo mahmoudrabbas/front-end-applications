@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css" />
+    <title>mahmoudrabass</title>
+</head>
+<body>
+
+
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <h5>Mahmoudrabass</h5>
+                </div>
+                <div class="topnav" id="myTopnav">
+                    <a onclick="openComp(event, 'home')" class="btn" href="javascript:void(0);">Home</a>
+                    <a id="defaultOpened" onclick="openComp(event, 'company')" class="btn" href="javascript:void(0);">Company</a>
+                    <a onclick="openComp(event, 'about')" class="btn" href="javascript:void(0);">About</a>
+                    <a onclick="openComp(event, 'contact')" class="btn" href="javascript:void(0);">Contact</a>
+                    <a onclick="openComp(event, 'login')" class="btn" href="javascript:void(0);">Login</a>
+                    <a onclick="myFunction()" class="icon" href="javascript:void(0);"><i class="fa fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contents">
+        <div class="container">
+            <div id="home" class="content">
+                <h1>This is the Home Component</h1>
+            </div>
+            <div id="company" class="content">
+                <h1>This is the Company Component</h1>
+            </div>
+            <div id="about" class="content">
+                <h1>This is the About Component</h1>
+            </div>
+            <div id="contact" class="content">
+                <h1>This is the Contact Component</h1>
+            </div>
+            <div id="login" class="content">
+                <h1>This is the Login Component</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
