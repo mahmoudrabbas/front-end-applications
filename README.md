@@ -1,4 +1,4 @@
-Hola guys, I’m Mahmoud
+Hola, I’m Mahmoud
 I’m interested in web development 
 I’m currently learning MERN stack 
 
