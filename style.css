@@ -9,9 +9,10 @@
 .header {
     background-color: #f1f1f1;
     border-top: 8px solid #ccc;
+    border-bottom: 8px solid #ccc;
 }
 .container {
-    padding: 0px;
+    padding: 0px 100px;
 }
 .row {
     overflow: hidden;
@@ -20,6 +21,9 @@ div.logo {
     float: left;
     padding: 14px 15px;
     color: blue;    
+}
+div.logo::first-letter {
+    color: red;
 }
 .topnav {
     overflow: hidden;
