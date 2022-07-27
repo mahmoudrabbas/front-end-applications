@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #e6e6e6;
+
+}
+
+.page {
+    width:100%;
+    height: 100vh;
+    text-align: center;
+    padding: 10px;
+}
+
+#form {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#input ,#btn{
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#input{
+    width: 80%;
+    color:#333;
+}
+#btn{
+    width: 18%;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    font-weight: 500;
+}
+
+#taskCheck {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+}
+
+.tasks {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.task {
+    background-color: #ccc;
+    margin-bottom: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.text {
+    color: black;
+    text-transform: capitalize;
+    margin-left: 1vw;
+}
+
+.done {
+    background-color: #999;
+
+}
+
+.done > p {
+    text-decoration: line-through;
+}
+
+.delBtn {
+    color: white;
+    text-transform: capitalize;
+    padding: 5px;
+    outline: none;
+    border: none;
+    font-size: 0.9em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    background-color: #8d2222;
+}
+
+.delBtn:hover {
+    background-color: #761c1c;
+}
+
+@media (min-width: 800px) {
+    .page {
+        width: 70%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+}
+
+
